@@ -17,6 +17,6 @@ Tweepcraft is maintained at GitHub and exhibited at Deviant Art via API (Coming 
 Disclaimer:
 Tweepcraft is a developer of 3d meshes and morph kits, of which may be derivatives of one or more of the below:
 
-V4 and Miki 4 are copyrighted material maintained by DAZ3D and SmithMicro Inc. Antonia Polygon is maintained by odf (https://sites.google.com/site/antoniapolygon//Antonia.Polygon@gmail.com). Amy, the Release is maintained by Ean Sze (http://ean-sze.deviantart.com/) All rights reserved. 
+V4 and Miki 4 are copyrighted material maintained by DAZ3D and SmithMicro Inc. Antonia Polygon is maintained by odf (https://sites.google.com/site/antoniapolygon/ EMAIL: Antonia.Polygon@gmail.com). Amy, the Release is maintained by Ean Sze (http://ean-sze.deviantart.com/) All rights reserved. 
 
 Joining is easy. Simply go to the github.com site and create an account. Keyword 'Aja-PHM'
