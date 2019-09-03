@@ -1,0 +1,3 @@
+This file is the base file for all versi9ns of the Aja Monologue. 
+Its purpose is to establish a string of default functions of which 
+all sub-functions may be derived.
