@@ -1,4 +1,10 @@
 # Python package
+- task: VSBuild@1
+  inputs:
+    solution: '**\*.sln'
+    clean: true
+    restoreNugetPackages: true
+    createLogFile: true
 # Create and test a Python package on multiple Python versions.
 # Add steps that analyze code, save the dist with the build record, publish to a PyPI-compatible index, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/python
@@ -6,9 +12,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'ubuntu-latest'
-strategy:
+
   matrix:
     Python27:
       python.version: '2.7'
