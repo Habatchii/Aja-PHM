@@ -10,9 +10,8 @@
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <IsWindowsApplication>True</IsWindowsApplication>
-    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterId>Global|PythonCore|3.4-32</InterpreterId>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <InterpreterVersion>3.4</InterpreterVersion>
     <OutputPath>.</OutputPath>
     <Name>Aja-PHM</Name>
     <RootNamespace>Aja-PHM</RootNamespace>
@@ -53,8 +52,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\3.4" />
-    <InterpreterReference Include="{80659ab7-4d53-4e0c-8588-a766116cbd46}\2.7" />
+    <InterpreterReference Include="Global|PythonCore|3.4-32" />
+    <InterpreterReference Include="IronPython|2.7-32" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
